@@ -12,3 +12,16 @@ let matriz = [
     [],
     []
 ]
+for (var i = 0; i < 3; i++) {
+    for (var j = 0; j < 3; j++) {
+        matriz[i][j] = i.toString()+j.toString();
+    }
+}
+
+for (let i = 0; i < matriz.length; i++) {
+    for (let e = 0; e < matriz[i].length; e++) {
+        console.log(matriz[i][e]);
+    }
+}
+
+console.log(matriz);

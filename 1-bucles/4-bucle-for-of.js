@@ -33,3 +33,15 @@ let gente = [{
         edad: 10
     },
 ]
+var mayores = new Array();
+for(let persona of gente){
+    
+    if (persona.edad > 25) {
+        console.log(persona.nombre + ' | ' + persona.edad);  
+        mayores.push(persona);
+    }
+}
+
+for(i=0;i<mayores.length;i++){
+    console.log(mayores[i]); 
+}

@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+var conJ = new Array();
+for (let persona of gente){
+    if (persona.nombre.substr(0,1) === 'J'){
+        conJ.push(persona);
+    }
+}
+
+for(i=0;i<conJ.length;i++){
+    console.log(conJ[i]); 
+}

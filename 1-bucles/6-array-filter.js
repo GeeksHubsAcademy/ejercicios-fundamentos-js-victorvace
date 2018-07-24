@@ -32,4 +32,13 @@ let gente = [{
         edad: 10
     },
 ]
+var t4 = new Array();
+const result = gente.filter(persona => persona.nombre.length === 4);
 
+for(i=0;i<result.length;i++){
+    t4.push(result[i]);
+}
+
+for(i=0;i<t4.length;i++){
+    console.log(t4[i]); 
+}
