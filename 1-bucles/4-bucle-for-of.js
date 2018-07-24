@@ -37,7 +37,6 @@ var mayores = new Array();
 for(let persona of gente){
     
     if (persona.edad > 25) {
-        console.log(persona.nombre + ' | ' + persona.edad);  
         mayores.push(persona);
     }
 }

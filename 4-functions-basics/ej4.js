@@ -10,8 +10,13 @@
 
 let ultimoCaracter = (texto) => {
     // Aquí tu código.  Desde aquí:
-  
-
+    if (typeof texto == 'string' && texto !== '') {
+        return texto.substr(-1,1);
+    } else if (texto === '') {
+        return 'Debo ser ejecutada con un string no vacío';
+    } else {
+        return 'Debo ser ejecutada con un string';
+    }
 
     // Hasta aquí.
 }
