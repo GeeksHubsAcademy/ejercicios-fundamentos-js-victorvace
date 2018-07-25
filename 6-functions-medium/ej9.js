@@ -14,7 +14,9 @@
 let extraerAcronimo = (...input) => {
     let acronimo = '';
     // Aquí tu código.  Desde aquí:
-   
+    for (const palabras of input) {
+        acronimo += palabras[0];
+    }
     // Hasta aquí.
     return acronimo;
 }
