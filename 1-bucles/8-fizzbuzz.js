@@ -15,3 +15,45 @@ for (let i = 1; i < 101; i++) {
         console.log(i)
     }
 }
+
+/* 
+let result;
+
+for (let i = 1; i <= 100; i++) {
+
+    if (!(i%3)) {
+        result += 'GEEKS';
+    }
+    
+    if (!(i % 5)){
+        result += 'HUBS';
+    }
+    
+    console.log(result || i);
+    result = '';
+}
+*/
+
+/*
+let result = '';
+for (let i = 0; i <= 100; i++) {
+    console.log((i%3?'':'Geeks')+(i%5?'':'hubs')||i);
+}
+*/
+
+/*
+let i = 100;
+while(i--){
+    console.log((i%3?'':'Geeks')+(i%5?'':'hubs')||i);
+}
+*/
+
+/*
+let fizzBuzz = (i) => {
+    if (i>100) {
+        console.log((i%3?'':'Geeks')+(i%5?'':'hubs')||i);
+        fizzBuzz(i+1);
+    }
+}
+fizzBuzz(1);
+*/
